@@ -96,3 +96,15 @@ Changed the directory and use find command
 - ```bash
       cat data.txt | base64 -d
   ```
+
+## LEVEL 11 -> LEVEL 12
+- Open file and rotate data by 13 using website **rot13.com**
+
+- ```bash
+      cat data.txt 
+  ```
+- ```bash
+      https://rot13.com/
+  ```
+
+  
