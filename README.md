@@ -66,4 +66,11 @@ Changed the directory and use find command
   find / -user bandit7 -group bandit6 -size 33c 2>/dev/null && cat var/lib/dpkg/info/bandit7.password
 ```
 
+## LEVEL 7 -> LEVEL 8
+
+- open data.txt & find word 'millionth'
+
+```bash
+  cat data.txt | grep "millionth"
+````
     
