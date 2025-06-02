@@ -91,6 +91,7 @@ Changed the directory and use find command
   ```
 
 ## LEVEL 10 -> LEVEL 11
+
 - Open file and decode base64
 
 - ```bash
@@ -98,6 +99,7 @@ Changed the directory and use find command
   ```
 
 ## LEVEL 11 -> LEVEL 12
+
 - Open file and rotate data by 13 using website **rot13.com**
 
 - ```bash
@@ -107,4 +109,12 @@ Changed the directory and use find command
       https://rot13.com/
   ```
 
-  
+## LEVEL 12 -> LEVEL 13
+
+- Change directory to /tmp
+- Make new directory
+- Check zip type and unzip till password found
+
+- ```bash
+      //cat data.txt | cd tmp | mkdir <name> | cd | cp data.txt /tmp/<name> | cd /tmp/<name> | ls | cat data.txt | xxd -r > <name> | file <name> | mv <name> <name>.gz | gzip -d <name>.gz | mv <name> <name>.bz2 | bzip2 -d <name>.bz2 | mv <name> <name>.gz | gzip -d <name>.gz |  tar -xvf <name> | tar -xvf data5.bin | mv data6.bin data6.bin.bz2 | bzip2 -d data6.bin.bz2 | tar -xvf data6.bin | mv data8.bin data8.bin.gz | gzip -d data8.bin.gz | cat data8.bin
+  ```
