@@ -127,6 +127,15 @@ Changed the directory and use find command
       ssh bandit14@localhost -p 2220 -i sshkey.private
   ```
 
+## LEVEL 14 -> LEVEL 15
+
+- Open file **/etc/bandit_pass/bandit14
+
+- ```bash
+  cd .. | cd .. | cat /etc/bandit_pass/bandit14
+  ```
+  
+
   
       
   
