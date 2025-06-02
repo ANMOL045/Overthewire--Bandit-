@@ -86,13 +86,13 @@ Changed the directory and use find command
 
 - sort readable data in data.txt and search for "="
 
- - ```bash
+- ```bash
       strings data.txt | grep "="
   ```
 
 ## LEVEL 10 -> LEVEL 11
--Open file and decode base64
+- Open file and decode base64
 
--```bash
-    cat data.txt | base64 -d
-```
+- ```bash
+      cat data.txt | base64 -d
+  ```
