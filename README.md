@@ -44,43 +44,43 @@ OverTheWire.org provides interactive wargames to learn and practice cybersecurit
 
 - Scan all available files & check type for readable file
  
-```bash
+- ```bash
   for i in $(ls); do file ./$i; done | cat ./-file07
-```
+  ```
 
 ## LEVEL 5 -> LEVEL 6
 
 - Change directory 
 - Find readable file with size 1033byte & not executable 
 
-```bash
-  cd inhere | find . -readable -size 1033c ! -executable && cat ./inhere/maybehere07/.file2
-```
+- ```bash
+   cd inhere | find . -readable -size 1033c ! -executable && cat ./inhere/maybehere07/.file2
+  ```
 
 # LEVEL 6 -> LEVEL 7
 
 - Find file with owner bandit7 & group bandit6
 - size 33byte
 
-```bash
+- ```bash
   find / -user bandit7 -group bandit6 -size 33c 2>/dev/null && cat var/lib/dpkg/info/bandit7.password
-```
+  ```
 
 ## LEVEL 7 -> LEVEL 8
 
 - open data.txt & find word 'millionth'
 
-```bash
+- ```bash
   cat data.txt | grep "millionth"
-````
+  ````
 
 ## LEVEL 8 -> LEVEL 9
 
 - sort data.txt & find unique line
 
-```bash
+- ```bash
   sort data.txt | uniq -u
-```
+  ```
 
 ## LEVEL 9 -> LEVEL 10
 
