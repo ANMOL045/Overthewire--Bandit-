@@ -118,3 +118,16 @@ Changed the directory and use find command
 - ```bash
       //cat data.txt | cd tmp | mkdir <name> | cd | cp data.txt /tmp/<name> | cd /tmp/<name> | ls | cat data.txt | xxd -r > <name> | file <name> | mv <name> <name>.gz | gzip -d <name>.gz | mv <name> <name>.bz2 | bzip2 -d <name>.bz2 | mv <name> <name>.gz | gzip -d <name>.gz |  tar -xvf <name> | tar -xvf data5.bin | mv data6.bin data6.bin.bz2 | bzip2 -d data6.bin.bz2 | tar -xvf data6.bin | mv data8.bin data8.bin.gz | gzip -d data8.bin.gz | cat data8.bin
   ```
+
+## LEVEL 13 -> LEVEL 14
+
+- Use ssh key to login with username **bandit14**
+
+- ```bash
+      ssh bandit14@localhost -p 2220 -i sshkey.private
+  ```
+
+  
+      
+  
+  
