@@ -23,3 +23,13 @@ Open a bash file
 ```bash
      cat ./-
 ```
+
+## LEVEL 2 -> LEVEL 3
+
+Open a file with spaces using ""
+
+...bash
+    cat "spaces in this filename"
+```    
+    
+    
