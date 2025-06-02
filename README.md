@@ -31,5 +31,12 @@ Open a file with spaces using ""
 ```bash
     cat "spaces in this filename"
 ```    
-    
+
+## ELVEL 3 -> LEVEL 4
+
+Changed the directory and use find command
+
+```bash
+    cat inhere && find | cat ./...Hiding-From-You
+```
     
