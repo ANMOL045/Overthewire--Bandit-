@@ -8,10 +8,18 @@ Connect to overthewire's ssh server using there ssh information-
 - Host: **bandit.labs.overthewire.org**
 - Port: **2220**
 
-## LEVEL 1
+## LEVEL 0 -> LEVEL 1
 
 Open the file called readme
 
 ```bash
     cat readme
+```
+
+## LEVEL 1 -> LEVEL 2
+
+Open a bash file
+
+```bash
+     cat ./-
 ```
