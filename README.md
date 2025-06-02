@@ -28,7 +28,7 @@ Open a bash file
 
 Open a file with spaces using ""
 
-...bash
+```bash
     cat "spaces in this filename"
 ```    
     
