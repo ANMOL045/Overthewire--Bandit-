@@ -73,4 +73,11 @@ Changed the directory and use find command
 ```bash
   cat data.txt | grep "millionth"
 ````
-    
+
+## LEVEL 8 -> LEVEL 9
+
+- sort data.txt & find unique line
+
+```bash
+  sort data.txt | uniq -u
+```
