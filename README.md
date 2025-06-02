@@ -37,6 +37,15 @@ Open a file with spaces using ""
 Changed the directory and use find command
 
 ```bash
-    cat inhere && find | cat ./...Hiding-From-You
+    cd inhere && find | cat ./...Hiding-From-You
 ```
+
+## LEVEL 4-> LEVEL 5
+
+- Scan all available files & check type for readable file
+ 
+```bash
+  for i in $(ls); do file ./$i; done | cat ./-file07
+```
+
     
