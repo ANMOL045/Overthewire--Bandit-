@@ -81,3 +81,11 @@ Changed the directory and use find command
 ```bash
   sort data.txt | uniq -u
 ```
+
+## LEVEL 9 -> LEVEL 10
+
+- sort readable data in data.txt and search for "="
+
+- ```bash
+      strings data.txt | grep "="
+  ```
