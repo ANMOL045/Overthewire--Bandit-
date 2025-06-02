@@ -4,41 +4,41 @@ OverTheWire.org provides interactive wargames to learn and practice cybersecurit
 
 ## LEVEL 0
 
-Connect to overthewire's ssh server using there ssh information-
+- Connect to overthewire's ssh server using there ssh information-
 - Host: **bandit.labs.overthewire.org**
 - Port: **2220**
 
 ## LEVEL 0 -> LEVEL 1
 
-Open the file called readme
+- Open the file called readme
 
-```bash
+- ```bash
     cat readme
-```
+  ```
 
 ## LEVEL 1 -> LEVEL 2
 
-Open a bash file
+- Open a bash file
 
-```bash
+- ```bash
      cat ./-
-```
+  ```
 
 ## LEVEL 2 -> LEVEL 3
 
-Open a file with spaces using ""
+- Open a file with spaces using ""
 
-```bash
+- ```bash
     cat "spaces in this filename"
-```    
+  ```    
 
 ## ELVEL 3 -> LEVEL 4
 
-Changed the directory and use find command
+- Changed the directory and use find command
 
-```bash
+- ```bash
     cd inhere && find | cat ./...Hiding-From-You
-```
+  ```
 
 ## LEVEL 4-> LEVEL 5
 
