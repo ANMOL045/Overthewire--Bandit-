@@ -5,5 +5,5 @@ OverTheWire.org provides interactive wargames to learn and practice cybersecurit
 ## LEVEL 0
 
 Connect to overthewire's ssh server using there ssh information-
-Host: **bandit.labs.overthewire.org**
-Port: **2220**
+- Host: **bandit.labs.overthewire.org**
+- Port: **2220**
